@@ -1,83 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="my first website" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
-  <a name="TopOfThePage"> </a> <br/>
+  <a name="TopOfThePage"> </a> 
 
-  <link rel="stylesheet" type="text/css" href="filename.css"/>
-  <style>
-    .myDiv {
-      border: 5px outset red;
-      background-color: lightblue;    
-    }
-    </style>
-  <div class="myDiv">
-    <h2>This is my worst web page</h2>
+  <link rel="stylesheet" href="./checkpoint.css"/>
+  
+  <div class="header">
+    <h2>This is my first and worst web page</h2>
   <p>youssef says welcome to you.</p>
   
-  <ul>
+</br></br></br>
+
+
+
+  <ul class="navbar">
     <a href="home">home</a></li>
     <a href="about">about</a></li>
     <a href="work">work</a></li>
     <a href="resume">resume</a></li>
     <a href="contact">contact</a></li>
   </ul>
-  <form>
-    Search <input type = "text" name = "search" />
-</form>
-<br/>
-<h4>this is an image called devices (just like that)</h4>
-<img width="600" height="200" src="C:\Users\Hp\Desktop\fotos\images (1).png"  alt="devices" > 
-<br/>
-<br/>
-<h4>and this is a video </h4>
-<video src="videoplayback.mp4" width="600" height="400" controls></video>
-<h4>and theses are two tables </h4>
-<table style="width: 1%;" border="2" >
-  <tbody>
   
-  <th>nom</th>
-  <th>prenom</th>
-  <th>pays</th>
-    
-  <tr>
-  <td>ali</td>
-  <td>belgacem</td>
-  <td>tunisie</td>
-  </tr>
-  <tr>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
-  <td>&nbsp;</td>
-  </tr>
-  </tbody>
-  </table>
-  <br/>
-  <table border="10" bgcolor="yellow" width="500" > 
-    <tr bgcolor="white" width="100" >
+  <form class="search">
+    Search <input type = "text" name = "search" />
+    <input type="submit" value="search"></li> 
+  </form>
+<br/>
+<br/>
+<br/><br/><br/>
+<article class="image">
+<h3>this is an image called devices (simply)</h3>
+<img  src="C:\Users\Hp\Desktop\checkpoint html\clent.png" width="900px"  alt="devices" > 
+<br/>
+<br/>
+<h3>and this is a video clip for samara's song </h3>
+<p>Samara Riahi is a popular artist from Tunisia. Popnable collects information about 3 songs by Samara Riahi. The highest Samara Riahi 's charting position is #1 , and the worst ranking place is #493 . Samara Riahi's songs spent 65 weeks in the charts. Samara Riahi appeared in Top Chart that measure the best Tunisian musicians/bands and the highest position noted by Samara Riahi is 1. The worst result is 493.</p>
+<video src="videoplayback.mp4" height="500px" controls></video>
+</article><br><br>
+<div  class="table"> 
+<h4>this is a table </h4>
+    <table border="10" bgcolor="yellow" width="500"  >
+    <tr bgcolor="white" width="100" class="tr1" >
       <th>HTML</th>
       <th>CSS</th>
       <th>JS</th>
     </tr>
-    <tr bgcolor="purple" width="100" align="center">
+    <tr bgcolor="purple" width="100" align="center" class="tr2">
       <td>Paragraphs</td>
       <td>Selectors</td>
       <td>DOM</td>
     </tr>
-    <tr bgcolor="green" width="100" align="center">
+    <tr bgcolor="green" width="100" align="center" class="tr3">
       <td>Tables</td>
       <td>Styles</td>
       <td>Elements</td>
     </tr>
   </table>
-  <div>
-  <h4>this is a list</h4>
-<ol type="I">
+</div>
+
+  <div class="list">
+  <h4>this is a list made by css</h4>
+<ol>
   <li>bro</li>
   <li>wassup</li>
   <li>hru</li>
@@ -85,7 +71,11 @@
 </ol>  
   </div>
   <br/>
+  <div class="toppage">
   <a href="#TopOfThePage"> Let's go up Top </a>
+
+</div>
+</div>
 
 </body>
 </html>
